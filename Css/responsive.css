@@ -1,0 +1,244 @@
+@media only screen and (max-width: 440px){
+    header .head_vrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header .head_vrap .header_sub_vrap{
+        display: none;
+    }
+
+    header{
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+    .parent__container--div,
+    .container{
+        max-width: 440px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+        /* border: 2px solid red; */
+
+
+       
+    }
+    .banner .tittle{
+        max-width: 420px;
+        width: 100%;
+        margin: 0;
+    }
+    .banner .tittle h1{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+
+    .banner .tittle p{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        margin: 28px 0 20px 0;
+    }
+
+    .banner .tittle .sub__line--div,
+    .feedback .wrap .tittle__description--div .sub__line--div{
+        position: absolute;
+        top: 19px;
+        right: 2;
+        height: 4px;
+    }
+
+    .feedback .wrap .tittle__description--div{
+        gap: 28px;
+    }
+.banner img{
+    width: 100%;
+    height: 190px;
+}
+
+
+.feedback{
+    margin: 60px 0 70px 0;
+}
+
+.feedback .wrap{
+    flex-direction: column;
+}
+.feedback .wrap img{
+    order: -1;
+    width: 100%;
+}
+.feedback .wrap .tittle__description--div h1{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+
+.adventage .adventage__wrap--div .box p{
+ font-size: 12px;   
+ line-height: 18px;
+ font-weight: 400;
+}
+
+.adventage .adventage__wrap--div .box h1{
+    font-size: 12px;   
+    line-height: 18px;
+    font-size: 600;
+}
+
+.adventage .adventage__wrap--div{
+}
+.adventage{
+    margin: 70px 0 180px 0;
+}
+
+.adventage__wrap--div{
+    flex-wrap: wrap;
+    gap: 28px;
+}
+
+.desingner{
+    background-color: rgba(16, 187, 135, 1);
+}
+
+.desingner .mask__box--div{
+    width: 100%;
+    justify-content: start;
+}
+.desingner .mask__box--div .mask__box__tittle--div{
+    width: 100%;
+    bottom: -400px;
+    left: 10px;
+}
+
+.desingner .mask__box--div .mask__box__tittle--div button{
+    color: rgba(179, 179, 179, 1);
+}
+.desingner .mask__box--div .mask__box__tittle--div button img{
+    opacity: 0.4;
+}
+.desingner {
+    height: 830px;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+.desingner .mask__box--div > img{
+    display: none;
+}
+
+.desingner .mask__box--div .window__img{
+    left: 0;
+    top: -10px;
+    width: 100%;
+}
+
+.desingner .mask__box--div .window__img .sub__window__img{
+width: 100%;
+}
+
+.desingner .mask__box--div .window__img .sub__window__img img:first-child{
+    width: 100%;
+    }
+    
+    .desingner .mask__box--div .window__img{
+        top: 30px;
+    }
+    .populars h1{
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .populars h1 br{
+        display: none;
+    }
+
+    .populars h1 .tag__chiziq .sub__line{
+        top: 19px;
+    }
+    .populars .items{
+        grid-auto-flow: column;
+        overflow-x: scroll;
+    }
+
+    .services h2{
+        justify-content: space-between;
+    }
+
+    .services .items{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+.category .category__wrapper{
+    display: flex;
+    overflow-x: scroll;
+    column-gap: 50px;
+}
+
+.category{
+    height: 203px;
+    margin-bottom: 100px;
+
+}
+.category h1{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact{
+    margin-top: 100px;
+}
+
+.contact{
+    background-color: rgba(16, 187, 135, 1);
+}
+.contact .back__call{
+    flex-direction: column;
+    background-color: none;
+    padding: 40px 0 50px 0;
+
+}
+
+.contact .back__call .back__call__item{
+    width: 100%;
+}
+.contact .back__call .back__call__item h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact .back__call__item .tag__chiziq .sub__line {
+    position: absolute;
+    top: 19px;
+    left: 0px;
+    width: 100%;
+    height: 6px;
+    background-color: rgba(72, 123, 108, 1);
+    display: inline-block;
+    z-index: -1;
+}
+
+
+.contact .back__call .back__call__item p{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 56px 0 32px 0;
+}
+/* foot */
+
+footer .top_footer .inside_top{
+    display: none;
+}
+
+
+footer .top_footer .inside_bottom {
+    overflow: hidden;
+}
+footer .bottom_footer {
+    display: none;
+}
+
+}
