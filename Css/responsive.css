@@ -242,3 +242,10 @@ footer .bottom_footer {
 }
 
 }
+
+
+
+.last__nav{
+    display: flex;
+    width: 400px;
+}

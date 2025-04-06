@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+
+.contact{
+    margin-bottom: 140px;
+}
+
+
+.contact .back__call{
+    background-color: rgba(16, 187, 135, 1);
+    border-radius: 28px;
+    display: flex;
+    padding: 40px 124px 50px 96px;
+}
+
+
+.contact .back__call .back__call__item{
+    width: 50%;
+}
+
+.contact .back__call .back__call__item h1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #fff;
+}
+
+.contact .back__call .back__call__item p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #487B6C;
+    margin-top: 44px;
+}
+
+
+.contact .back__call .back__call__item form{
+    /* display: flex;
+    align-items: center; */
+    /* gap: 12px; */
+        width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .back__call .back__call__item form .form__item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+gap: 10px;
+}
+
+.contact .back__call .back__call__item form .form__item label{
+    color: #487B6C;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+
+.contact .back__call .back__call__item form .form__item input{
+    width: 225%;
+    padding: 12px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.15);
+    border: none;
+    outline: none;
+}
+
+.back__call__item{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.contact .back__call .back__call__item form .form__item .form__item__vrapper{
+    display: flex;
+    gap: 28px;
+    
+}
+
+.back__call__item{
+
+}
+
+
+
+
+/* eng asosiy sub line */
+.contact .back__call__item .tag__chiziq{
+    display: inline;
+    position: relative;
+    width: 400px;
+    z-index: 2;
+
+}
+.contact .back__call__item .tag__chiziq .sub__line{
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    width: 100%;
+    height: 6px;
+    background-color: rgba(72, 123, 108, 1);
+    display: inline-block;
+    z-index: -1;
+}
+
+
+/* /eng asosiy sub line */
+
+
+
+.contact{
+    position: relative;
+}
+
+input:last-child:hover{
+cursor: pointer;
+}
